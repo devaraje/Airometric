@@ -1,0 +1,28 @@
+* { box-sizing: border-box;}
+
+body {
+  margin: auto;
+  background-color: black;
+}
+
+header {
+  background-color: white;
+}
+
+header h1 { 
+  color: black;
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+}
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.media {
+  color: white;
+  
+}
