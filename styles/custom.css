@@ -1,4 +1,4 @@
-/* * { box-sizing: border-box;}*/
+* { box-sizing: border-box;}
 
 body {
   margin: auto;
@@ -7,6 +7,8 @@ body {
 
 header {
   background-color: white;
+  margin-top: auto;
+ /* background-image: url("/images/clouds.jpg");*/
 }
 
 /*header h1 { 
@@ -23,5 +25,17 @@ header {
 }
 
 .media {
+  color: white;
+}
+
+.nav-color {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+  background: linear-gradient(to right, rgba(92,184,92,.1), rgba(92,184,92,1)); /* Standard syntax (must be last) */
+  /*background-color: rgb(25, 112, 12);*/
+}
+
+.search-text {
   color: white;
 }
