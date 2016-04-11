@@ -8,6 +8,7 @@ body {
 header {
   background-color: white;
   margin-top: auto;
+  padding-top: 2em;
  /* background-image: url("/images/clouds.jpg");*/
 }
 
@@ -26,6 +27,7 @@ header {
 
 .media {
   color: white;
+  padding: 2em;
 }
 
 .nav-color {
@@ -36,6 +38,21 @@ header {
   /*background-color: rgb(25, 112, 12);*/
 }
 
+.nav-padding {
+  padding-top: 1em;
+}
+
 .search-text {
   color: white;
+}
+
+.footer-padding {
+  padding-top: 1em;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-bottom: .5em;
+}
+
+footer {
+  background-color: white;
 }

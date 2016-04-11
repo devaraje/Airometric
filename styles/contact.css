@@ -1,7 +1,26 @@
 .background-gradient {
+  padding-top: 2em;
+  padding-bottom: 1em;
   color: grey;
-  background-color: #5cb85c;
+  /*background-color: #5cb85c;
   border-color: #4cae4c;
-  background: linear-gradient(to right, rgba(92,184,92,0), rgba(92,184,92,1)); /* Standard syntax (must be last) */
+  background: linear-gradient(to right, rgba(92,184,92,0), rgba(92,184,92,.2)); /* Standard syntax (must be last) */
   
+}
+  
+.footer-padding {
+  padding-top: 1em;
+  padding-left: .5em;
+  padding-right: .5em;
+  padding-bottom: .5em;
+}
+
+.img-padding {
+  padding-left: .2em;
+  padding-right: .2em;
+}
+
+.button-padding {
+  padding-top: 1em;
+  padding-bottom: .5em;
 }
