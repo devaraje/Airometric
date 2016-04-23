@@ -2,13 +2,35 @@
 
 body {
   margin: auto;
-  background-color: black;
+  font-family: "Proxima Nova Regular", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #7d7d7d;
+  background-color: #7d7d7d;
+}
+
+html { 
+  background: url(../images/paddy.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+
+h1 img {
+  background-color: white;
 }
 
 header {
   background-color: white;
   margin-top: auto;
-  padding-top: 2em;
+  /*padding-top: 2em;*/
  /* background-image: url("/images/clouds.jpg");*/
 }
 
@@ -18,6 +40,11 @@ header {
   margin: auto;
   text-align: center;
 }*/
+
+.custom-nav {
+  padding: 2em;
+  width: 100%
+}
 
 .center-block {
   display: block;
@@ -38,11 +65,7 @@ header {
   /*background-color: rgb(25, 112, 12);*/
 }
 
-.nav-padding {
-  padding-top: 1em;
-}
-
-.search-text {
+.search-text, .nav-text {
   color: white;
 }
 
@@ -50,7 +73,7 @@ header {
   padding-top: 1em;
   padding-left: .5em;
   padding-right: .5em;
-  padding-bottom: .5em;
+  /*padding-bottom: 1em;*/
 }
 
 footer {
