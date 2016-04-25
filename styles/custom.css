@@ -53,7 +53,8 @@ header {
 }
 
 .media {
-  color: white;
+  /*color: white;*/
+  color: rgba(70, 49, 45, 1);
   padding: 2em;
 }
 
