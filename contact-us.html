@@ -10,104 +10,151 @@
       <title>Airometric Wireless</title>
 
       <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-  <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+      <!-- Optional theme -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!--Font Awesome -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
       
-  <!--Font Awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+      <!--  Javascript  -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="js/ie10-viewport-bug-workaround.js"></script>
       
   <link href="styles/contact.css" rel="stylesheet">
 
     </head>
-
-    <body>
       
-      <header> 
+        <body class="container-fluid">  
 
-        <h1 class="text-center"></h1>
-        <img class="img-responsive img-circle center-block" alt="Airometrics Wireless" src="images/logo.png">
-        
-      </header>
+          <div class="container1">
 
-       
-      <form id="ContactUs_Aboutus" class="background-gradient text-color">
-        
-        <div class=row>
-              
-            <div class="col-md-8 col-md-offset-2">
-              
-                <div class="form-group">
+            <nav class="nav-custom">
 
-                    <div class="col-md-6 margin-bottom-30px">
-                        <label for="firstName">
-                            First Name
-                        </label>
-                        <input type="name" class="form-control contact-us margin-30px" id="firstName" />
-                    </div>
-                  
-                    <div class="col-md-6 margin-bottom-30px">
-                        <label for="lastName">
-                            Last Name
-                        </label>
-                        <input type="name" class="form-control contact-us margin-30px" id="lastName" />
-                    </div>
-                  
-                    <div class="col-md-6">
-                        <label for="email">Email address</label>
-                        <input type="email" class="form-control contact-us margin-30px" id="email">
+                      <a class="img-circle"><img src="images/logo.png" class="img-responsive" alt="Airometric"/></a>
+
+                      <ul class="nav nav-justified nav-color">
+
+                        <li role="presentation" class="dropdown">
+
+                            <a class="dropdown-toggle nav-text" data-toggle="dropdown" id="dropdownMenu1" role="button" aria-haspopup="true" aria-expanded="false">
+              Home <span class="caret"></span>
+            </a>
+
+                            <ul class="dropdown-menu dropdown-menu-right text-success" aria-labelledby="dropdownMenu1">
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Another action</a></li>
+                              <li><a href="#">Something else here</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li role="presentation">
+                          <a class="dropdown-toggle nav-text" data-toggle="dropdown" id="dropdownMenu1" role="button" aria-haspopup="true" aria-expanded="false">
+              Products <span class="caret"></span>
+            </a>
+                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                              <li><a href="#">Action</a></li>
+                              <li><a href="#">Another action</a></li>
+                              <li><a href="#">Something else here</a></li>
+                              <li role="separator" class="divider"></li>
+                              <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </li>
+
+                        <li role="presentation"><a class="nav-text" href="contact-us.html">Contact Us</a></li>
+
+                      </ul>
+
+                </nav>
+
+
+          <form id="contact-us" class="background-gradient text-color">
+
+            <div class=row>
+
+                <div class="col-md-8 col-md-offset-2">
+
+                    <div class="form-group">
+
+                        <div class="col-md-6 margin-bottom-30px">
+                            <label for="firstName">
+                                First Name
+                            </label>
+                            <input type="name" class="form-control contact-us margin-30px" id="firstName" />
+                        </div>
+
+                        <div class="col-md-6 margin-bottom-30px">
+                            <label for="lastName">
+                                Last Name
+                            </label>
+                            <input type="name" class="form-control contact-us margin-30px" id="lastName" />
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control contact-us margin-30px" id="email">
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="phoneNumber">Phone Number</label>
+                            <input type="phone" class="form-control contact-us margin-30px" id="phoneNumber">
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="address">
+                                Address
+                            </label>
+                            <input type="text" class="form-control contact-us" id="address" />
+                        </div>
+
+                        <div class="col-md-12">
+                            <label for="comments">
+                                Comments
+                            </label>
+                            <textarea class="form-control contact-us margin-30px" rows="8" id="comments"></textarea>
+                        </div>
+
+                        <div class="col-md-12 text-center button-padding">
+                            <a href="#" class="btn btn-success ib-try-now-btn margin-60px" id="sendDetails">SEND DETAILS</a>
+                        </div>
+
                     </div>
 
-                    <div class="col-md-6">
-                        <label for="phoneNumber">Phone Number</label>
-                        <input type="phone" class="form-control contact-us margin-30px" id="phoneNumber">
-                    </div>
-
-                    <div class="col-md-12">
-                        <label for="address">
-                            Address
-                        </label>
-                        <input type="text" class="form-control contact-us" id="address" />
-                    </div>
-
-                    <div class="col-md-12">
-                        <label for="comments">
-                            Comments
-                        </label>
-                        <textarea class="form-control contact-us margin-30px" rows="8" id="comments"></textarea>
-                    </div>
-                  
-                    <div class="col-md-12 text-center button-padding">
-                        <a href="#" class="btn btn-success ib-try-now-btn margin-60px" id="sendDetails">SEND DETAILS</a>
-                    </div>
-                  
                 </div>
-                
+
             </div>
+
+        </form>  
+
+        <footer class="container-fluid text-center footer-padding">
+
+          <p>
+            <img src="images/facebook.png" alt="facebook" class="img-padding">
+            <img src="images/github.png" alt="github" class="img-padding">
+            <img src="images/linked-in.png" alt="linkedin" class="img-padding">
+          </p>
+
+          <p>&copy;Copyright Airometric Wireless 2016 | 
+            <a href="index.html"> Home </a>
+          </p>
+
+        </footer>
+
+      </div>
           
-        </div>
-        
-    </form>  
+      <script>
+        $(document).ready(function(){
+        $('[data-toggle="popover"]').popover();   
+        });
+      </script>  
 
-    <footer class="container-fluid text-center footer-padding">
-
-      <p>
-        <img src="images/facebook.png" alt="facebook" class="img-padding">
-        <img src="images/github.png" alt="github" class="img-padding">
-        <img src="images/linked-in.png" alt="linkedin" class="img-padding">
-      </p>
-
-      <p>&copy;Copyright Airometric Wireless 2016 | 
-        <a href="index.html"> Home </a>
-      </p>
-
-    </footer>
+    </body>
 
   </html>
