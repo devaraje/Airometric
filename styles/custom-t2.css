@@ -56,7 +56,7 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  text-align: center;
+  /*text-align: center;*/
   border-bottom: 1px solid #e5e5e5;
 }
 .jumbotron .btn {
@@ -64,10 +64,18 @@ body {
   font-size: 21px;
 }
 
-.grid-img {     
+.grid-img {
   width: 30rem;
   padding: 1rem;
   margin: inherit;
+}
+
+.grid-img-center {
+  width: 30rem;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .img-center {
@@ -105,6 +113,7 @@ body {
   .header {
     margin-bottom: 30px;
   }
+    
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
