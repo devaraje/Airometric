@@ -1,0 +1,181 @@
+html { 
+  background-color: rgba(70, 49, 45, 0.3);
+  background: url(../images/smartphone.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: auto;
+  font-family: "Proxima Nova Regular", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #999999;
+  background-color: rgba(70, 49, 45, 0.3);
+  background: url(../images/smartphone.jpg) no-repeat center center fixed;
+}
+
+/* Space out content a bit */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: rgb(163, 163, 117);
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.atf-main,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+/* Make the masthead heading the same height as the navigation */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+.text-al{
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+    
+.nav-color {
+  color: #fff;
+  background-color: #419641;
+  border-color: #4cae4c;
+ }
+}
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  /*text-align: center;*/
+  border-bottom: 1px solid white;
+}
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+.grid-img {
+  width: 30rem;
+  padding: 1rem;
+  margin: inherit;
+}
+
+.grid-img-center {
+  width: 30rem;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.img-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40rem;       
+}   
+
+.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 60rem;
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .atf-main,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+    
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+  
+  .button-padding {
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+  
+  .img-padding {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+  
+  .container {
+  height: 100%;
+  width: 100%;
+  /*background-color: rgba(43, 30, 28, 1);*/
+  margin: auto;
+  padding-top: 2em;
+}
+    
+  .nav-color {
+  color: #fff;
+  background-color: #419641;
+  border-color: #4cae4c;
+}
+    
+  .float-header {
+    float: right;
+    text-align: center;
+}
+
+  
+  .center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+  
