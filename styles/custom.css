@@ -1,8 +1,8 @@
 * { box-sizing: border-box;}
 
 html { 
-  /*background-color: rgba(70, 49, 45, 0.3);*/
-  /*background: url(../images/clouds.jpg) no-repeat center center fixed; */
+  background-color: rgba(0, 120, 120 , 0.3);
+  background: url(../images/clouds.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,12 +19,12 @@ body {
   font-family: "Proxima Nova Regular", Arial, Helvetica, sans-serif;
   font-size: 14px;
   line-height: 1.428571429;
-  color: #999999;
-  background-color: rgba(70, 49, 45, 0.3);
-  /*background: url(../images/clouds.jpg) no-repeat center center fixed;*/
+  /*color: rgba(70, 49, 45, 0.3);*/
+  background-color: rgba(0, 60, 120 , 0.3);
+  /*background: url(../images/smartphone.jpg) no-repeat center center fixed;*/
 }
   
-
+  
 nav img {
   background-color: white;
 }
@@ -60,9 +60,10 @@ header {
 
 .nav-color {
   color: #fff;
-  background-color: #5cb85c;
-  border-color: #4cae4c;
-  background: linear-gradient(to right, rgba(43, 30, 28, 1), rgba(43, 30, 28, 1)); /* Standard syntax (must be last) */
+  background-color: rgba(70, 49, 45, 0.3);
+  /*background-color: #5cb85c;
+  border-color: #4cae4c;*/
+  /*background: linear-gradient(to right, rgba(43, 30, 28, 1), rgba(43, 30, 28, 1)); /* Standard syntax (must be last) */
   /*background: linear-gradient(to right, rgba(92,184,92,.1), rgba(92,184,92,.5)); /* Standard syntax (must be last) */
   /*background-color: rgb(25, 112, 12);*/
 }

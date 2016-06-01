@@ -11,8 +11,8 @@ a:hover {
 
 /* Custom default button */
 .btn-default,
-.btn-default:hover,
-.btn-default:focus {
+/*.btn-default:hover,*/
+/*.btn-default:focus*/ {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
   background-color: #fff;
@@ -46,13 +46,15 @@ body {
   -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
           box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
+
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
 }
+
 .cover-container {
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto; 
 }
 
 /* Padding for spacing */
@@ -64,6 +66,7 @@ body {
 /*
  * Header
  */
+
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -72,9 +75,11 @@ body {
 .masthead-nav > li {
   display: inline-block;
 }
+
 .masthead-nav > li + li {
   margin-left: 20px;
 }
+
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
@@ -84,12 +89,14 @@ body {
   color: rgba(255,255,255,.75);
   border-bottom: 2px solid transparent;
 }
+
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255,255,255,.25);
 }
+
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
@@ -126,7 +133,7 @@ body {
 
 .mastfoot {
   color: #999; /* IE8 proofing */
-  color: rgba(255,255,255,.5);
+  color: rgba(255,255,255,1);
 }
 
 
@@ -140,18 +147,21 @@ body {
     position: fixed;
     top: 0;
   }
+  
   .mastfoot {
     position: fixed;
     bottom: 0;
   }
+  
   /* Start the vertical centering */
   .site-wrapper-inner {
     vertical-align: middle;
   }
+  
   /* Handle the widths */
   .masthead,
   .mastfoot,
-  .cover-container {
+  .cover-container{
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
   }
 }
@@ -164,20 +174,45 @@ body {
   } 
 }
   
-  /* Supporting marketing content */
+/* Supporting marketing content */
 .marketing {
-  margin: 30px 0;
-  background-color: rgba(0,0,0,.6);
-  height: 300px;
-  width: 100%;
+  margin: 30px;
+  /*background-color: rgba(0,0,0,.7);*/
+  height: 100%  ;
+  
 }
 .marketing p + h4 {
   margin-top: 28px;
 }
-  
-.container {
-  height: 100%;
-  width: 100%;
+
+.marketing-color {
+  background-color: rgba(0,0,80,.5);
+}
+
+.grid-padding{
   padding-top: 4em;
 }
+
+.back-color {
+  background-color: black;  
+  
+}
+
+.button-padding {
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+
+.row-padding {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.background-gradient {
+  padding-top: 4em;
+  padding-bottom: 1em;
+  color: white;
+}
+
+  
 
