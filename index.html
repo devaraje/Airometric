@@ -1,14 +1,17 @@
 <!DOCTYPE html>
-  <html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Airometric Wireless">
+    <meta name="author" content="Airometric Wireless Inc.">
+    <link rel="icon" href="images/favicon.ico">
 
-    <head>
+    <title>Airometric Wireless</title>
 
-      <meta charset=utf-8>
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-
-      <title>Airometric Wireless</title>
-
-      <!-- Latest compiled and minified CSS -->
+    <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
       <!-- Optional theme -->
@@ -16,226 +19,324 @@
 
       <!--Font Awesome -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    
+      <!--Google Fonts -->
+      <!--link href='https://fonts.googleapis.com/css?family=Limelight|Abril+Fatface|Open+Sans:600|Josefin+Sans' rel='stylesheet' type='text/css'-->
+     <link href='https://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
       
-      <!--  Javascript  -->
+    <!-- Custom styles for this template -->
+    <link href="styles/carousel.css" rel="stylesheet">
+  </head>
+  
+<!-- NAVBAR
+================================================== -->
+  <body id="page-body">
+    <div class="navbar-wrapper">
+      <div class="container">
+        <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header nav-font">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <!--a class="navbar-brand" href="images/Airometric_Logo.jpg"><img src="images/Airometric_Logo_Small.jpg" alt="Airometric Wireless Logo"></a-->
+              <div id="nav-logo" >
+                <a class="navbar-nav pull-left" href="#"><img src="images/Airometric_Logo_Small.jpg" alt="Airometric Wireless Logo">Airometric Wireless</a>
+              </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <div class="container">
+              <ul class="nav navbar-nav pull-right">
+                <li><a href="#">Home</a></li>
+                <li><a href="index.html#learnmore">Learn More</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li> 
+              </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner carousel-font" role="listbox">
+        <div class="item active">
+          <!--img class="first-slide" src="images/AdobeStock_103981846_MA.jpeg" alt="First slide"-->
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Actionable Analytics</h1>
+              <p>At Airometric Wireless, we provide the tools and advanced analytics platform to ensure your customers get the best possible wireless experience.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="images/AdobeStock_96629187_CX.jpeg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Measure the Customer Experience</h1>
+                      <p>Airometric Wireless helps optimize your wireless device and network using performance data of the actual customer experience.</p>
+              <p><a class="btn btn-lg btn-primary" href="index.html#learnmore" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="images/AdobeStock_80859576_AA.ai" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Anytime, Anywhere</h1>
+              <p>Using the cloud for global reach and scale, you can measure and analyze wireless quality of your customers anytime, anywhere.</p>
+              <p><a class="btn btn-lg btn-primary" href="index.html#learnmore" role="button">Learn More</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing featurette-font">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/Airodata.gif" alt="Airodata" width="140" height="140">
+          <h2>Devices, Devices, Devices</h2>
+          <p class="lead">Wireless devices like smartphones, tablets and IoT devices are exploding globally. Device manufacturers, mobile operators and others in the wireless ecosystem have no choice but to optimize their products and services to provide a quality customer experience.</p> 
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/AirometricLogoBlack.jpg" alt="Airometric" width="140" height="140">
+          <h2>Measure &amp; Analyze, Anywhere, Anytime</h2>
+          <p class="lead">Airometric system provides a cloud based solution to measure, manage and analyze the performance of wireless devices and networks. Data can be captured anywhere globally. Our web portal, again accessible from anywhere with an internet connection, provides you the ability to manage the process and gives you visibility into performance data collected during tests within a short period of time after test completion.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/Airodata.gif" alt="Generic placeholder image" width="140" height="140">
+          <h2>Real World Data</h2>
+          <p class="lead">Airometric’s solution allows any user in any global location to do quick voice call connectivity and data performance tests on the actual network. Advanced analytics and reporting even allows comparative analysis of different tests on different devices in different locations. Our web portal provides a unified view, allowing you to analyze and optimize voice call and data performance from a device and/or network perspective to ensure optimum customer experience.</p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      
+      <!-- START THE FEATURETTES -->
+            
+      <!--anchor for "learn more" -->
+      <a name="learnmore"></a>
+      <hr class="featurette-divider">      
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Test Voice Connectivity<span class="text-muted">&amp; Data Performance</span></h2>
+          <p class="lead">Airometric System provides logs and contextual information from the application layer on the mobile device. Test voice connectivity and data performance using just your unmodified device so you know what your customer experiences. </p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/Airometric_Flow.jpg" alt="Airometric Flow">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
+          <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block" src="images/AdobeStock_96629187_CX.jpeg" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Network Testing <span class="text-muted">Feature Rich</span></h2>
+          <p class="lead">&middot;Macro Network &middot; DAS (Distributed Antenna System) Network &middot; Small Cell &middot;HNets</p>
+          <a href="index.html#usecases">See More...</a>
+          <!--<p>Spot testing of Network Installations.  In-building coverage</p>
+          <p>Area drive testing before and after a network change</p>
+          <p>Compare and contrast markets.  Compare and contrast device performance</p>
+          <p>Field interoperability testing</p>
+          <p>Technology specific testing such as RAT leakage, LTE</p>
+          <p>Ability to use other tools with Airometric system</p>-->
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive center-block" src="images/AdobeStock_103981846_MA.jpeg" alt="Generic placeholder image">
+        </div>
+      </div>
+      
+      <!--anchor for "about" -->
+      <!--a name="about"></a-->
+      <hr class="featurette-divider">    
+      <div class="row featurette featurette-font">
+        <table class="table table-striped table-condensed">
+          <thead>
+            <tr>
+              <th><h3><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i>&nbsp;&nbsp;Features</h3></th>
+              <th><h3><i class="fa fa-thumbs-up fa-3x" aria-hidden="true"></i>&nbsp;&nbsp;Benefits</h3</th>		        
+            </tr>
+          </thead>        
+          <tbody>
+            <tr class="lead">
+              <td>On device client for automated OR manual/remote coverage, voice and data performance tests</td>
+              <td>Simple to use –  Anyone around the globe can use this</td>
+            </tr>
+            <tr class="lead">
+              <td>Client fully integrated and authenticated with cloud server</td>
+              <td>Manage the test, tester and access to data</td>
+            </tr>
+            <tr class="lead">
+              <td>No changes to device needed (no need to root the device)</td>
+              <td>Avoid changes that impact behavior, See what the user would experience</td>
+            </tr>
+            <tr class="lead">
+              <td>Single centralized test management system</td>
+              <td>Collaborate among globally distributed teams and enterprises</td>
+            </tr>
+            <tr class="lead">
+              <td>Test where the customer uses the wireless product….  Not just in a lab or fixed location</td>
+              <td>Again…. Understand what the customer experiences</td>
+            </tr>
+            <tr class="lead">
+              <td>Cloud storage of data allows for comparative analysis</td>
+              <td>Compare and contrast devices, OS’s, networks, chipset family etc</td>
+            </tr>
+          </tbody>                        
+        </table> 
+      </div>
+      
+      <!--anchor for "use cases" -->
+      <a name="usecases"></a>
+      <hr class="featurette-divider">
+      
+      <div class="row featurette featurette-font">
+        <h3 class="text-center"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i>&nbsp;&nbsp;Use Cases</h3>
+        <div class="col-md-6">
+          <p class="lead">
+                <h3>Network Testing – (Macro Network, DAS (Distributed Antenna System) Network, Small Cell, HNets)</h3>
+&middot;Spot testing of Network Installations
+&middot;In-building coverage
+&middot;Area drive testing before and after a network change
+&middot;Compare and contrast markets
+&middot;Compare and contrast device performance
+&middot;Field interoperability testing
+&middot;Technology specific testing such as RAT leakage, LTE etc.
+&middot;Ability to use other Tools with Airometric system
+          </p>
+          <p class="lead">
+            <h3>Regression testing</h3>
+          </p>
+          <p class="lead">
+            <h3>Pre and Post Launch testing</h3>
+&middot;Device 
+&middot;Network
+&middot;Component or nodes such as antenna 
+          </p>
+        </div>
+        <div class="col-md-6">
+          <p class="lead">  
+            <h3>Vendor testing</h3>
+&middot;Field equipment installation verification
+&middot;Network vendor change verification
+&middot;OEM/Chipset performance testing   
+          </p>
+          <p class="lead">
+            <h3>Enterprise Customer</h3>
+&middot;Coverage analysis 
+&middot;Device performance
+&middot;Troubleshoot application performance if related to connectivity or data performance
+          </p>
+          <p>
+            <h3>Regulatory compliance</h3>
+&middot;Broadband performance
+          </p>
+        </div>
+      </div>
+      
+      <!--anchor for "about" -->
+      <a name="about"></a>
+      <hr class="featurette-divider">
+      
+      <div class="row featurette featurette-font">
+        <div class="col-md-6">
+          <img class="img-circle center-block" src="images/placeholder.jpg" alt="Annie George" width="140" height="140">
+          <p class="lead custom-pad">
+                <h3>Annie George – Founder, CEO</h3>
+                <h3>annie@airometricwireless.com</h3>
+          </p>
+          <p class="lead">Over 17 years in the wireless industry leading and managing network, devices and OS connectivity teams. Well-connected within the wireless ecosystem including device OEMs, MO’s, labs and CTIA certification program working groups.
+          </p>
+        </div>
+        <div class="col-md-6">
+          <img class="img-circle center-block" src="images/placeholder.jpg" alt="Mathew Samuel" width="140" height="140">
+          <p class="lead custom-pad">  
+                <h3>Mathew Samuel – Founder, CTO</h3>
+                <h3>mathew@airometricwireless.com</h3>
+          </p>
+          <p class="lead">
+            Over 20 years in the wireless industry leading and managing teams with a focus on test and validation. Well-connected within the wireless ecosystem including device OEMs, MO’s and labs.
+          </p>
+        </div>
+      </div>
+
+      <!--anchor for "contact" -->
+      <a name="contact"></a>
+      <hr class="featurette-divider">
+      
+      <div class="row featurette featurette-font">
+        <div class="col-md-12">
+          <p class="lead">
+                <h2 class="text-center">For more information please contact</h2>
+                <h3 class="text-center">mathew@airometricwireless.com</h3>
+                <h3 class="text-center">annie@airometricwireless.com</h3>
+          </p>         
+        </div>        
+      </div>
+  
+      <!--hr class="featurette-divider"-->
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+    <!-- FOOTER -->
+    <footer>
+      <p class="pull-right"><a href="#">Back to top</a></p>
+      <p>&copy; Airometric Wireless 2016, Inc.</p>
+    </footer> 
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!--  Javascript  -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
       <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
       <script src="js/ie10-viewport-bug-workaround.js"></script>
-      
-          <!-- Custom styles for this template -->
-      <link href="styles/carousel.css" rel="stylesheet">
-      <link href="styles/custom.css" rel="stylesheet">
+      <script src="js/navigation.js"></script>
 
-    </head>
-
-    <body class="container-fluid">  
-      
-      <div class="container1">
-
-        <nav class="nav-custom">
-          
-                  <a class="img-circle"><img src="images/logo.png" class="img-responsive" alt="Airometric"/></a>
-          
-                  <ul class="nav nav-justified nav-color">
-
-                    <li role="presentation" class="dropdown">
-
-                        <a class="dropdown-toggle nav-text" data-toggle="dropdown" id="dropdownMenu1" role="button" aria-haspopup="true" aria-expanded="false">
-          Home <span class="caret"></span>
-        </a>
-
-                        <ul class="dropdown-menu dropdown-menu-right text-success" aria-labelledby="dropdownMenu1">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="#">Separated link</a></li>
-                        </ul>
-
-                    </li>
-                    
-                    <li role="presentation">
-                      <a class="dropdown-toggle nav-text" data-toggle="dropdown" id="dropdownMenu1" role="button" aria-haspopup="true" aria-expanded="false">
-          Products <span class="caret"></span>
-        </a>
-                        <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
-                          <li><a href="#">Action</a></li>
-                          <li><a href="#">Another action</a></li>
-                          <li><a href="#">Something else here</a></li>
-                          <li role="separator" class="divider"></li>
-                          <li><a href="#">Separated link</a></li>
-                        </ul>
-                    </li>
-
-                    <li role="presentation"><a class="nav-text" href="contact-us.html">Contact Us</a></li>
-                    
-                  </ul>
-
-            </nav>
-
-            <section class="container-fluid text-right">
-
-                <p></p>
-
-                <p class="search-text">
-                  <label class="text-center" for="searchBox">Search</label>
-                  <input class="text-right" type="text" id="searchBox">
-                  <i class="fa fa-search"></i>
-                </p>
-
-            </section>
-
-            <p> </p>
-        
-            <!--begin carousel -->
-        
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-              
-              <!-- Indicators -->
-              
-              <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <!--<li data-target="#myCarousel" data-slide-to="2"></li>-->
-                <li data-target="#myCarousel" data-slide-to="3"></li>
-              </ol>
-              
-              <!-- carousel inner -->
-              <div class="carousel-inner" role="listbox">
-                
-                <div class="item active">
-                  <img class="first-slide" src="images/smartphone.jpg"   class="img-responsive" alt="First slide">
-                  <div class="container">                    
-                    <div class="carousel-caption">
-                      <h1>Actionable Analytics</h1>
-                      <p>At Airometric Wireless, we provide the tools and advanced analytics platform to ensure your customers get the best 
-                        possible wireless experience.</p>
-                      <p><a class="btn btn-lg btn-success" href="#" role="button">Learn more</a></p>
-                    </div>                   
-                  </div>
-                </div>
-                
-                <div class="item">
-                  <img class="second-slide" src="images/smartphone.jpg" class="img-responsive" alt="Second slide"> 
-                  <div class="container">
-                    <div class="carousel-caption">
-                      <h1>Measure the Customer Experience</h1>
-                      <p>Airometric Wireless helps optimize your wireless device and network using performance data of the actual customer experience.</p>
-                      <p><a class="btn btn-lg btn-success" href="using-closure.html" role="button">Download free trial</a></p>
-                    </div>
-                  </div>
-                </div>
-                
-                <!--
-                <div class="item">
-                  <img class="third-slide" src="images/dubai.jpg" class="img-responsive" alt="Third slide">
-                  <div class="container">
-                    <div class="carousel-caption">
-                      <h1>Measure the customer experience</h1>
-                      <p>Airometric system helps optimize your wireless device or network using performance data the actual customer experience.</p>
-                      <p><a class="btn btn-lg btn-success" href="#" role="button">Browse gallery</a></p>
-                    </div>
-                  </div>
-                </div>
-                -->
-                
-              <div class="item">
-                  <img class="fourth-slide" src="images/smartphone.jpg" class="img-responsive" alt="Fourth slide">
-                  <div class="container">
-                    <div class="carousel-caption">
-                      <h1>Anytime, Anywhere</h1>
-                      <p>Using the cloud for global reach and scale, you can measure and analyze wireless quality of your customers anytime, anywhere.</p>
-                      <p><a class="btn btn-lg btn-success" href="#" role="button">Contact Us</a></p>
-                    </div>
-                  </div>
-                </div>
-                
-              </div> 
-              <!-- end carousel inner-->
-              
-              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              
-              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-              
-            </div>
-        
-            <!-- end carousel -->
-        
-        </div>
-        
-        <!-- end container1 -->
-      
-        <div class="container2">
-
-          <!-- Run the script to display the map 
-
-          <div id="map" class="center-block">
-            <script src="js/map.js"></script>
-          </div>
-
-          -->
-
-          <!-- grid layout -->
-          <div class="media">
-
-              <div class="media-body">
-                <h4 class="media-heading">Devices, devices, devices</h4>
-                <p>Wireless devices like smartphones, tablets and IoT devices are exploding globally. Device manufacturers, mobile 
-                    operators and others in the wireless ecosystem have no choice but to optimize their products and services to provide a quality customer experience.</p>
-              </div>
-
-              <div class="media-body">
-                <h4 class="media-heading">Measure &amp; Analyze, Anywhere, Anytime</h4>
-                <p>Airometric system provides a cloud based solution to measure, manage and analyze the performance of wireless devices and networks. Data can be captured anywhere globally. Our web portal, again accessible from anywhere with an internet connection, provides you the ability to manage the process and gives you visibility into performance data collected during tests within a short time after the test completion.</p>
-              </div>
-
-              <div class="media-body">
-                <h4 class="media-heading">Real world data</h4>
-                <p>Airometric’s solution allows any user in any global location to do a quick voice call connectivity and data performance tests on the actual network. Advanced analytics and reporting even allows comparative analysis of different tests on different devices in different locations. Our web portal provides a unified view, allowing you to analyze and optimize the voice call and data performance from a device and/or network perspective to ensure optimum customer experience.</p>
-              </div>
-
-            </div>
-          
-          <footer class="container-fluid text-center footer-padding">
-
-              <p>
-                <img src="images/facebook.png" alt="facebook">
-                <img src="images/github.png" alt="github">
-                <img src="images/linked-in.png" alt="linkedin">
-              </p>
-
-              <p>&copy;Copyright 2016 Airometric Wireless | 
-                <a href="#"> FAQ's</a>
-              </p>
-
-          </footer>
-          
-          </div> <!-- end of container2 -->
-         
-          
-
-          <!-- Bootstrap core JavaScript -->
-          <!-- Placed at the end of the document so the pages load faster -->
-
-          <script async defer
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYvgNEUXcWqU-ksxVsBx32tCT7dIefYKw&callback=initMap">
-          </script>
-          
-          <script>
-            $(document).ready(function(){
-            $('[data-toggle="popover"]').popover();   
-            });
-          </script>   
-      
-    </body>     
-    
-
-  </html>
+  </body>
+</html>
