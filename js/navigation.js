@@ -15,6 +15,15 @@ function hideLogo(){
   
 }*/
 
+/*function init_carousel() {
+            H = +($(window).height() 
+            $('.carousel-inner').css('height', H + 'px');
+        }
+  
+window.onload = init_carousel;
+init_carousel();*/
+
+
 $(document).load(function() {
   
   if ($(window).width() <= 800){
@@ -35,3 +44,7 @@ $( window ).scroll(function() {
 	}
   
 });
+
+$('#signup').click(function() {
+    $( "#dialog" ).dialog();
+  });
