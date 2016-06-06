@@ -11,11 +11,12 @@ body {
 }
 
 h2 {
-  color: #51BCE8;
+  color: #337ab7;
 }
 
 footer {
-  background-color: #51BCE8;
+  /*background-color: #51BCE8;*/
+  background-color: #337ab7;
   color: #FFFFFF;
   padding: 5em;
   width: 100%;
