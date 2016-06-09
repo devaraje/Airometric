@@ -29,6 +29,7 @@
       
     <!-- Custom styles for this template -->
     <link href="styles/carousel.css" rel="stylesheet">
+    
   </head>
   
 <!-- NAVBAR
@@ -45,9 +46,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <!--a class="navbar-brand" href="images/Airometric_Logo.jpg"><img src="images/Airometric_Logo_Small.jpg" alt="Airometric Wireless Logo"></a-->
               <div id="nav-logo" >
-                <a class="navbar-nav pull-left" href="#"><img src="images/Airometric_Logo_Small.jpg" alt="Airometric Wireless Logo">Airometric Wireless</a>
+                <!--a class="navbar-brand"><img src="images/Airometric_Logo_Small.jpg" alt="Airometric Wireless Logo"></a-->
+                <span class="navbar-nav pull-left span-color"><img src="images/Airometric_Logo_Small.jpg" alt="Airometric Wireless Logo">Airometric Wireless</span>
+                <!--a class="navbar-nav pull-left"><img src="images/Airometric_Logo_Small.jpg" alt="Airometric Wireless Logo">Airometric Wireless</a-->
               </div>
               <div id="nav-logo-small" >
                 <a class="navbar-nav pull-left" href="#">Airometric Wireless</a>
@@ -81,12 +83,13 @@
       </ol>
       <div class="carousel-inner carousel-font" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="images/ManyHandsHoldingDevices.jpg" alt="First slide">
+          <img class="first-slide" src="images/stock-photo-50637502-teamwork-.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption" id="carousel-cap">
               <h1>Actionable Analytics</h1>
               <p>At Airometric Wireless, we provide the tools and advanced analytics platform to ensure your customers get the best possible wireless experience.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" id="signup" role="button">Sign up today</a></p>
+              <p><a class="btn btn-lg btn-primary" id="signuptoday" role="button">Sign up today</a></p>
+              <!--p><a class="btn btn-lg btn-primary" href="index.html#signupnow" id="signup" role="button">Sign up today</a></p-->         
             </div>
             <!--div class="carousel-caption" id="carousel-cap-small">
               <h3>Actionable Analytics</h3>
@@ -107,7 +110,7 @@
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="images/ManyHandsHoldingDevices.jpg" alt="Third slide">
+          <img class="third-slide" src="images/stock-photo-88642731-hands.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption" id="carousel-cap">
               <h1>Anytime, Anywhere</h1>
@@ -129,6 +132,44 @@
         <span class="sr-only">Next</span>
       </a>
     </div><!-- /.carousel --> 
+ 
+    <!-- sign up modal-->    
+    <div class="container">
+
+      <!-- Modal -->
+      <div class="modal fade" id="signupModal" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4>&nbsp;Interested? Use the form below to get in touch</h4>
+            </div>
+            <div class="modal-body">
+              <form role="form">
+                <div class="form-group">
+                  <!--label for="pname">Name</label-->
+                  <div class="form-padding"><input type="name" class="form-control" id="pname" placeholder="Name"></div>
+                  <!--label for="emailid">Email</label-->
+                  <div class="form-padding"><input type="email" class="form-control form-padding" id="emailid" placeholder="Email"></div>
+                  <!--label for="phone">Contact Number</label-->
+                  <div class="form-padding"><input type="phonenum" class="form-control form-padding" id="phonenum" placeholder="Contact Number"></div>
+                </div>
+                <div class="form-group form-padding">
+                  <button type="submit" class="btn btn-default btn-block" id="submitdetails"><span class="glyphicon glyphicon-send"></span>&nbsp;Submit Details</button>
+                  <!--button type="submit" class="btn btn-danger btn-small pull-right" data-dismiss="modal">Cancel</button-->
+                </div>              
+              </form>
+            </div>
+            <div class="modal-footer">
+              <p class="text-center">&copy; Airometric Wireless 2016, Inc.</p>
+            </div>
+          </div>
+
+        </div>
+      </div> 
+    </div> <!--signup modal-->
 
     <!-- Marketing messaging and featurettes
     ================================================== -->
@@ -239,7 +280,7 @@
       <hr class="featurette-divider">
       
       <div class="row featurette featurette-font">
-        <h2 class="text-center"><i class="fa fa-check-circle fa-3x" aria-hidden="true"></i>&nbsp;&nbsp;Use Cases</h2>
+        <h2 class="text-center"><i class="fa fa-signal fa-3x" aria-hidden="true"></i>&nbsp;&nbsp;Use Cases</h2>
         <div class="col-md-6">
           <p class="lead">
                 <h3>Network Testing – (Macro Network, DAS (Distributed Antenna System) Network, Small Cell, HNets)</h3>
@@ -333,15 +374,85 @@
         </div>        
       </div>
   
-      <!--hr class="featurette-divider"-->
+      <!--anchor for "signup" -->
+     <a name="signupnow"></a>
+      <hr class="featurette-divider">
+
+      <div class="row featurette featurette-font">
+        <div class="col-md-12">
+          <p class="lead">
+              <h2 class="text-center">Interested? Use the form below to get in touch</h2>
+              <br>
+          </p>
+
+            <form id="signupform" class="background-gradient text-color">
+
+                <div class=row>
+
+                    <div class="col-md-8 col-md-offset-2">
+
+                        <div class="form-group">
+
+                            <div class="col-md-6 margin-bottom-30px">
+                                <label for="firstName">
+                                    First Name
+                                </label>
+                                <input type="name" class="form-control contact-us margin-30px" id="firstName" />
+                            </div>
+
+                            <div class="col-md-6 margin-bottom-30px">
+                                <label for="lastName">
+                                    Last Name
+                                </label>
+                                <input type="name" class="form-control contact-us margin-30px" id="lastName" />
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="email">Email address</label>
+                                <input type="email" class="form-control contact-us margin-30px" id="email">
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="phoneNumber">Phone Number</label>
+                                <input type="phone" class="form-control contact-us margin-30px" id="phoneNumber">
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="address">
+                                    Address
+                                </label>
+                                <input type="text" class="form-control contact-us" id="address" />
+                            </div>
+
+                            <div class="col-md-12">
+                                <label for="comments">
+                                    Comments
+                                </label>
+                                <textarea class="form-control contact-us margin-30px" rows="8" id="comments"></textarea>
+                            </div>
+
+                            <div class="col-md-12 text-center button-padding">
+                                <a href="#" class="btn btn-default ib-try-now-btn margin-60px" id="sendDetails">SEND DETAILS</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </form> 
+        </div>
+    </div>
 
       <!-- /END THE FEATURETTES -->
 
     </div><!-- /.container -->
 
+
     <!-- FOOTER -->
-    <footer>
-      <p class="pull-right"><a href="#">Back to top</a></p>
+    <footer class="container-fluid">
+      <p class="pull-right"><a class="footer-text-color" href="#">Back to top</a></p>
       <p>&copy; Airometric Wireless 2016, Inc.</p>
     </footer> 
 
@@ -353,13 +464,15 @@
     ================================================== -->
     <!--  Javascript  -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-      <!-- Latest compiled and minified JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-      <script src="js/ie10-viewport-bug-workaround.js"></script>
       <script src="//code.jquery.com/jquery-1.10.2.js"></script>
       <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+      <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <script src="js/popover.js"></script>
+      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+      <script src="js/ie10-viewport-bug-workaround.js"></script>
       <script src="js/navigation.js"></script>
+      <script src="js/popover.js"></script>
 
   </body>
 </html>

@@ -10,7 +10,7 @@ body {
   background-color: #FFFFFF;  
 }
 
-h2 {
+h2, .span-color {
   color: #337ab7;
 }
 
@@ -80,7 +80,7 @@ table {
 }
 .navbar-wrapper .navbar .container {
   width: auto;
-  /*background-color: #74C390;*/
+  background-color: #FFFFFF;
 }
 
 
@@ -222,4 +222,42 @@ background-color: #E46653;
   height: auto;
 }*/
   
+}
+
+.footer-text-color {
+  color: #FFFFFF;
+}
+
+.button-padding {
+  padding-top: 1em;
+  padding-bottom: .5em;
+}
+
+.modal-header, h4, .close {
+      background-color: #337ab7;
+      color:white !important;
+      text-align: center;
+      font-family: 'Josefin Sans', sans-serif;
+      font-weight: 400;
+      font-size: 1.5em;
+      text-transform: full-width;
+      text-decoration: none;
+  }
+
+.modal-footer {
+      background-color: #f9f9f9;
+      display: inline-block;
+      width: 100%;
+  }
+
+.modal-header {
+  padding: 50px;
+}
+
+.modal-body {
+  padding: 50px;
+}
+
+.form-padding {
+  padding: 1em;
 }

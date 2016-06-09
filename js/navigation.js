@@ -1,28 +1,5 @@
-//event listeners
-/*$('#page-body').on('scroll', onPageScroll);
-
-function onPageScroll(evt){  //event handler for page scroll
-  
-  evt.preventDefault();
-  
-  hideLogo();
-    
-  }
-
-function hideLogo(){
-  
-  $('#nav-logo').hide();
-  
-}*/
-
-/*function init_carousel() {
-            H = +($(window).height() 
-            $('.carousel-inner').css('height', H + 'px');
-        }
-  
-window.onload = init_carousel;
-init_carousel();*/
-
+//event handler for when the window loads
+//do not show the logo in the header if the window size is < 800px
 
 $(window).load(function() {
   
@@ -34,7 +11,7 @@ $(window).load(function() {
         /*$('#carousel-cap').hide();*/
         /*$('#carousel-cap-small').show();*/
         /*$('.carousel-indicators').hide();
-        $('#lm').hide();*/
+       
   }
   else {
     
@@ -65,6 +42,3 @@ $(window).load(function() {
   
 });*/
 
-/*$('#signup').click(function() {
-    $( "#dialog" ).dialog();
-  });*/
